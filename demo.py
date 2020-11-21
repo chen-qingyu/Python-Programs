@@ -87,3 +87,12 @@
 
 ''' 提取每一位数字 '''
 # print(list(map(eval, list(str(2333)))))
+
+''' 数字范围映射 '''
+# def num_map(x, x_min, x_max, y_min, y_max):
+#     slope = (y_max - y_min) / (x_max - x_min)
+#     return y_min + round(slope * (x - x_min))
+
+
+# print(num_map(5, 0, 10, 0, 100))  # => 50
+# print(num_map(128, 0, 256, 0, 1024))  # => 512
