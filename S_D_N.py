@@ -16,4 +16,4 @@ def S(n):
     return s
 
 
-print(S(50))
+print(S(100))
